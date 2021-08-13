@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: OpenSans;
+}
+
+header{
+    text-transform: uppercase;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    height: 65px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(5px);
+    z-index: 100;
+    border-bottom: 1px solid rgb(167, 167, 167);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 941px;
+}
+nav img{
+    height: 18px;
+}
+nav a{ 
+    text-decoration: none;
+    font-size: 12px;
+    color: #bdbdbd;
+    margin-left: 25px;
+    transition: 0.3s;
+}
+nav a:hover{
+    font-weight: bold;
+    color: #00A4E5;
+}
+.center{
+    margin: 120px auto;
+    max-width: 941px;
+    text-align: center;
+}
+.first{
+    height: 100vh;
+    background: url("img/bg.jpg") no-repeat center;
+    background-size: cover;
+}
+.first div{
+    position: absolute;
+    color: white;
+    top: 45%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+.first div span{
+    font-size: 16px;
+}
+h1{ 
+    font-family: Bebas;
+    white-space: nowrap;
+    font-size: 60px;
+    letter-spacing: 5.70937px;
+}
+.scroll{
+    text-transform: uppercase;
+    position: absolute;
+    left: 50%;
+    color: white;
+    bottom: 71px;
+    transform: translateX(-50%);
+}
+
+.second{
+}
+
+h2{ 
+    font-size: 18px;
+    letter-spacing: 2.3px;
+    color: #48555B;
+    text-transform: uppercase;
+}
+hr{ 
+    display: inline-block;
+    margin-top: 10px;
+    width: 50px;
+    height: 2px;
+    border: none;
+    background-color: #00A4E5;
+}
+.second-flex{
+    display: flex;
+    align-items: flex-end;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+.second-text{
+    font-size: 20px;
+    max-width: 380px;
+    text-align: left;
+    letter-spacing: 0.1875px;
+}
+.second-disc{
+    display: block;
+    line-height: 23px;
+    font-size: 13px;
+    margin-top: 30px;
+}
+.second-blue{
+    color: #00A4E5;
+}
+.second-photo{
+    display: flex;
+}
+.photo-1, .photo-2, .photo-3{
+    position: relative;
+    height: 225px;
+    width: 140px;
+    text-align: left;
+}
+.photo-2{
+    margin: 0 10px 0 10px;
+}
+.second-photo b{
+    position: absolute;
+    top: 15px;
+    left: 14px;
+    text-transform: uppercase;
+    font-size: 24px;
+    color: white;
+    letter-spacing: 0.1875px;
+    
+}
+
+.photo-1{
+    background: url("img/block-1.jpg") no-repeat center;
+    background-size: cover;
+}
+.photo-2{
+    background: url("img/block-2.jpg") no-repeat center;
+    background-size: cover;
+}
+.photo-3{
+    background: url("img/block-3.jpg") no-repeat center;
+    background-size: cover;
+}
+
+
+.third-head{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    justify-content: space-between;
+}
+.third-head-button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.third-head-button span{
+    font-size: 11px;
+    line-height: 19px;
+    max-width: 390px;
+    margin-right: 31.6px;
+}
+.third-head-button button{
+    width: 150px;
+    height: 40px;
+    background-color: #00A4E5;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    border: none;
+    text-transform: uppercase;
+}
+.third-flex{
+    display: flex;
+    margin-top: 78px;
+    justify-content: space-between;
+    text-align: left;
+}
+.third-flex div{
+    padding: 38px 22.5px;
+    width: 295px;
+    height: 330px;
+    border: 1px solid #b1b1b1;
+}
+.third-flex h3{
+    font-size: 16px;
+    line-height: 24px;
+    margin: 25px 0 13px 0;
+}
+.third-flex span{
+    font-size: 13px;
+    line-height: 23px;
+}
+
+.fourth{
+    text-align: center;
+    background: url("img/bg2.jpg") no-repeat center;
+    background-size: cover;
+    height: 499px;
+}
+.fourth b{
+    display: block;
+    padding: 120px 0 35px 0;
+    font-size: 30px;
+    letter-spacing: 0.15px;
+    color: #343d41;;
+}
+.fourth button{
+    width: 150px;
+    height: 40px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    background: #00A4E5;
+}
+
+@font-face {
+    font-family: "OpenSans";
+    src: url("font/OpenSans.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Bebas";
+    src: url("font/Bebas.ttf") format("truetype");
+}
+
+
