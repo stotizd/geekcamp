@@ -41,9 +41,18 @@ nav a:hover{
     color: #00A4E5;
 }
 .center{
-    margin: 120px auto;
+    margin-left: auto;
+    margin-right: auto;
     max-width: 941px;
     text-align: center;
+}
+.second-center{
+    padding-top: 120px;
+    padding-bottom: 60px;
+}
+.third-center{
+    padding-top: 60px;
+    padding-bottom: 115px;
 }
 .first{
     height: 100vh;
@@ -202,6 +211,7 @@ hr{
 }
 
 .fourth{
+    margin-bottom: -1.5px;
     text-align: center;
     background: url("img/bg2.jpg") no-repeat center;
     background-size: cover;
@@ -225,6 +235,125 @@ hr{
     border: none;
     background: #00A4E5;
 }
+.footer-start{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background-color: #171819;
+}
+.footer-start div{
+    display: flex;
+    align-items: center;
+}
+.footer-start b{
+    color: white;
+    font-size: 22px;
+    margin-right: 70px;
+    letter-spacing: 0.846154px;
+}
+.footer-start input{
+    border: none;
+    outline: none;
+    height: 40px;
+}
+.email{
+    padding: 0 5px;
+    width: 250px;
+    margin-right: -4px;
+
+}
+.submit{
+    width: 150px;
+    color: white;
+    background-color: #00A4E5;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+}
+.footer-middle{
+    background: #141A20;
+    color: white;
+    font-size: 11px;
+}
+.center-footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 42px 0 50px 0;
+}
+.footer-middle h4{
+    text-transform: uppercase;
+}
+.company{
+    text-align: left;
+    max-width: 250px;
+}
+.company img{
+    display: block;
+    margin: 19px 0 15px 0;
+}
+.company span{
+    line-height: 19px;
+}
+
+.links{
+    text-align: left;
+    width: 100%;
+    max-width: 262px;
+}
+.links-flex{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+.links a{
+    display: block;
+    color: white;
+    line-height: 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.contact{
+    text-align: left;
+    max-width: 141px;
+}
+.contact a{
+    text-decoration: none;
+    display: block;
+    color: white;
+    line-height: 16px;
+}
+.contact h4{
+    margin-bottom: 10px;
+}
+.contact-number{
+    margin: 10px 0;
+}
+
+.footer-end{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    letter-spacing: 0.846154px;
+    background-color: #171819;
+    color: white;
+    height: 60px;
+}
+.social{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 100px;
+}
+.social img{
+    margin-top: 25px;
+    width: 12px;
+    filter: grayscale(1) brightness(2.5);
+
+}
+
 
 @font-face {
     font-family: "OpenSans";
